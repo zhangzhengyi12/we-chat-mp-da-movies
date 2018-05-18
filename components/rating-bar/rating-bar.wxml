@@ -1,0 +1,3 @@
+<view class="rating-bar">
+  <view class="rat-inner" style="width:{{realWidth}};background:{{innerBarColor}}"></view>
+</view>

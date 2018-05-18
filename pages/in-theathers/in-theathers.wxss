@@ -1,0 +1,17 @@
+.in-theathers {
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.movie-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.preview {
+  width: 100%;
+  margin-top: 40rpx;
+}

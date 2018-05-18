@@ -1,0 +1,24 @@
+.avatar-show {
+  width: 150rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 22rpx;
+}
+
+.avatar-show image {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.avatar-show .name {
+  font-size: 26rpx;
+  color: #9295a3;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  margin-top: 10rpx
+}

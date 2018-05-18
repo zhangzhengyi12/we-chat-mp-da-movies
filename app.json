@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/in-theathers/in-theathers",
+    "pages/new-resource/new-resource",
+    "pages/coming-soon/coming-soon",
+    "pages/doubanMovieDetail/doubanMovieDetail",
+    "pages/dygangMovieDetail/dygangMovieDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#f9f9f9",
+    "navigationBarTitleText": "DaMovies",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#f9f9f9"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#1c88ed",
+    "borderStyle": "black",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "正在热映",
+        "pagePath": "pages/in-theathers/in-theathers",
+        "iconPath": "images/hot.png",
+        "selectedIconPath": "images/hot-s.png"
+      },
+      {
+        "text": "最新资源",
+        "pagePath": "pages/new-resource/new-resource",
+        "iconPath": "images/resource.png",
+        "selectedIconPath": "images/resource-s.png"
+      },
+      {
+        "text": "即将上映",
+        "pagePath": "pages/coming-soon/coming-soon",
+        "iconPath": "images/date.png",
+        "selectedIconPath": "images/date-s.png"
+      }
+    ]
+  }
+}

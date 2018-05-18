@@ -1,0 +1,11 @@
+.rating-bar {
+  width: 100%;
+  background-color: #ccc;
+  height: 4px;
+}
+
+.rating-bar .rat-inner {
+  background-color: #ccc;
+  height: 4px;
+  transition: all 1.5s .2s;
+}

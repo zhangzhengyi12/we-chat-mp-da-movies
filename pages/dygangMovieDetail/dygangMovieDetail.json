@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "DaMovies - 电影详情",
+  "usingComponents": {
+    "top-show": "/components/top-show/top-show",
+    "rating-bar":"/components/rating-bar/rating-bar",
+    "avatar-show":"/components/avatar-show/avatar-show"
+  }
+}

@@ -1,0 +1,116 @@
+.detail {
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.loading {
+  width: 80rpx;
+  height: 80rpx;
+  display: block;
+  margin: 140rpx auto 0 auto;
+}
+
+.content {
+  padding: 40rpx;
+}
+
+.movie-name {
+  font-size: 44rpx;
+  color: #2b4168;
+}
+
+.main-message {
+  width: 100%;
+}
+.main-message .more {
+  margin-top: 30rpx;
+}
+.main-message .more view {
+  font-size: 26rpx;
+  color: #9295a3;
+}
+
+.rating {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+
+.rating .title {
+  font-size: 30rpx;
+  color: #71737c;
+  margin-bottom: 20rpx;
+}
+
+.rating .rat {
+  display: flex;
+  align-items: center;
+}
+
+.rating .rat .text-rat {
+  margin-left: 30rpx;
+}
+
+.rating .rat image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 30rpx;
+}
+
+.rat-bar {
+  flex: 10;
+}
+
+.desc {
+  margin-top: 20rpx;
+}
+
+.desc .title {
+  font-size: 30rpx;
+  color: #71737c;
+}
+
+.desc .desc-text {
+  font-size: 26rpx;
+  color: #9295a3;
+}
+
+.down {
+  margin-top: 20rpx;
+}
+
+.down .title {
+  font-size: 30rpx;
+  color: #71737c;
+  margin-bottom: 20rpx;
+}
+
+.down .down-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rpx;
+}
+
+.down .down-bar .resource-name {
+  font-size: 30rpx;
+  color: #9295a3;
+  width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.down .down-bar .copy {
+  padding: 2px 16px;
+  color: #3ba7ff;
+  border: 1px solid #3ba7ff;
+  border-radius: 6rpx;
+  font-size: 34rpx;
+}
+
+.down .down-bar .copy:active {
+  background-color: #3ba7ff;
+  color: #fff;
+}

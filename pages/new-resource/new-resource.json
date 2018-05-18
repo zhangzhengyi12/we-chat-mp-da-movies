@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "movie-preview": "/components/movie-preview/movie-preview"
+  },
+  "navigationBarTitleText": "DaMovies - 最新资源"
+}

@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="top-show">
+    <view class="cover-wrapper">
+      <image src="{{coverSrc}}"  bindload="coverLoad" />
+    </view>
+  </view>
+</view>

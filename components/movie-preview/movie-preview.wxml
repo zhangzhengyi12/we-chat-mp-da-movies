@@ -1,0 +1,23 @@
+<view class="movie-preview">
+  <view class="left">
+    <image class="cover" src="{{movieData.coverUrl}}" />
+  </view>
+  <view class="right">
+    <view class="title">{{movieData.movieTitle}}</view>
+    <view class="o-title">{{movieData.movieOriginTitle}}</view>
+    <view class="rating">
+        <view class="stars">
+          <image lazy-load="true"  class="star" wx:for="{{stars}}" src="{{item}}" wx:key="{{index}}" />
+        </view>
+        <text class="rat-text">
+          {{movieData.rating === 0 ? '暂无' : movieData.rating}}
+        </text>
+    </view>
+    <view class="types">
+      <text class="type" >{{strType}}</text>
+    </view>
+    <view class="detail">
+      <text class="btn" bindtap="onTapDetail" hover-class="hover">详情</text>
+    </view>
+  </view>
+</view>

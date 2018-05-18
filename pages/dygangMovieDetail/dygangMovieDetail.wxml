@@ -1,0 +1,41 @@
+<view class="detail">
+  <scroll-view scroll-y>
+    <top-show coverSrc="{{movieData.coverIamgeLarge}}" />
+    <!-- LOADING ANIMATION -->
+    <view class="content">
+      <view class="main-message">
+        <text class="movie-name">{{movieData.name}}</text>
+        <view class="more">
+          <view class="location">地区：{{movieData.location}}</view>
+          <view class="types">类型：{{typesStr}}</view>
+        </view>
+        <view class="rating">
+          <text class="title">媒体评分</text>
+          <view class="rat douban">
+            <image src="../../images/douban.svg"></image>
+            <rating-bar class="rat-bar" rating="{{movieData.rating.douban.rating}}"/>
+            <text class="text-rat" style="color:{{ratingTextColor}}">{{movieData.rating.douban.rating}}</text>
+          </view>
+          <view class="rat imdb">
+            <image src="../../images/imdb.svg"></image>
+            <rating-bar class="rat-bar" rating="{{movieData.rating.imdb.rating}}"/>
+            <text class="text-rat" style="color:{{ratingTextColor}}">{{movieData.rating.imdb.rating}}</text>
+          </view>
+        </view>
+        <view class="desc">
+          <text class="title">简介</text>
+          <text class="desc-text">
+            {{movieData.desc}}
+          </text>
+        </view>
+        <view class="down">
+          <text class="title">资源下载</text>
+          <view class="down-bar" wx:for="{{movieData.downloadLinks}}" wx:key="index">
+            <text class="resource-name">{{item.name}}</text>
+            <text class="copy" bindtap="onCopy" data-url="{{item.url}}">复制</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

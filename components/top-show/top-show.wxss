@@ -1,0 +1,25 @@
+.top-show {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  background: rgb(233, 232, 232);
+}
+
+
+.top-show .cover-wrapper {
+  width: 300rpx;
+  height: 420rpx;
+  background: #ccc;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px #999
+}
+
+.top-show image {
+  width: 300rpx;
+  height: 420rpx;
+  border-radius: 8px;
+}

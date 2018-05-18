@@ -1,0 +1,96 @@
+.detail {
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.loading {
+  width: 80rpx;
+  height: 80rpx;
+  display: block;
+  margin: 140rpx auto 0 auto;
+}
+
+.content {
+  padding: 40rpx;
+}
+
+.movie-name {
+  font-size: 44rpx;
+  color: #2b4168;
+}
+
+.main-message {
+  width: 100%;
+}
+.main-message .more {
+  margin-top: 30rpx;
+}
+.main-message .more view {
+  font-size: 26rpx;
+  color: #9295a3;
+}
+
+.rating {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+
+.rating .title {
+  font-size: 30rpx;
+  color: #71737c;
+  margin-bottom: 20rpx;
+}
+
+.rating .rat {
+  display: flex;
+  align-items: center;
+}
+
+.rating .rat .text-rat {
+  margin-left: 30rpx;
+}
+
+.rating .rat image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 30rpx;
+}
+
+.rat-bar {
+  flex: 10;
+}
+
+.direct {
+  margin-top: 20rpx;
+}
+
+.avatars-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 20rpx 0;
+}
+
+.art {
+  margin-top: 10rpx;
+}
+
+.art .title {
+  font-size: 30rpx;
+  color: #71737c;
+}
+
+.desc {
+  margin-top: 10rpx;
+}
+
+.desc .title {
+  font-size: 30rpx;
+  color: #71737c;
+}
+
+.desc .desc-text {
+  font-size: 26rpx;
+  color: #9295a3;
+}

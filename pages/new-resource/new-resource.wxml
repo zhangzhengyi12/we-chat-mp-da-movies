@@ -1,0 +1,7 @@
+<view class="new-resource">
+  <scroll-view scroll-y scroll-with-animation="true" style="height: 100%" class="scroll" >
+    <view class="movie-wrapper">
+        <movie-preview class="preview"  bind:tapDetail="onTapDetail" wx:for="{{polifillResource}}" wx:key="item.movieTitle" movieData="{{item}}"></movie-preview>
+    </view>
+  </scroll-view> 
+</view>

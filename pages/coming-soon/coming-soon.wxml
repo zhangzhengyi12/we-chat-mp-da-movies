@@ -1,0 +1,7 @@
+<view class="coming-soon">
+  <scroll-view scroll-y scroll-with-animation="true" style="height: 100%" class="scroll" >
+    <view class="movie-wrapper">
+        <movie-preview bind:tapDetail="onTapDetail"  class="preview" wx:for="{{polifillComingSoon}}" wx:key="item.movieTitle" movieData="{{item}}"></movie-preview>
+    </view>
+  </scroll-view> 
+</view>
